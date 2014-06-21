@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A420222-6F5F-480B-9E87-D251C706B748}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VbnLibrary</RootNamespace>
+    <AssemblyName>VbnLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedIntellect.Ssl, Version=0.9.0.3, Culture=neutral, PublicKeyToken=bc571e8da1c1f543">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AdvancedIntellect.Ssl.dll</HintPath>
+    </Reference>
+    <Reference Include="aspNetEmail, Version=3.5.2.0, Culture=neutral, PublicKeyToken=bc571e8da1c1f543">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\aspNetEmail.dll</HintPath>
+    </Reference>
+    <Reference Include="aspNetMime, Version=2.5.2.0, Culture=neutral, PublicKeyToken=bc571e8da1c1f543">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\aspNetMime.DLL</HintPath>
+    </Reference>
+    <Reference Include="AspNetPerformanceOptimizer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AspNetPerformanceOptimizer.dll</HintPath>
+    </Reference>
+    <Reference Include="aspNetPOP3, Version=2.5.2.0, Culture=neutral, PublicKeyToken=bc571e8da1c1f543">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\aspNetPOP3.dll</HintPath>
+    </Reference>
+    <Reference Include="LayerHelper.ShopCake.DAL, Version=1.0.4004.35540, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LayerHelper.ShopCake.DALDBSpecific, Version=1.0.4004.35540, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="SD.LLBLGen.Pro.DQE.SqlServer.NET20, Version=2.6.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SD.LLBLGen.Pro.DQE.SqlServer.NET20.dll</HintPath>
+    </Reference>
+    <Reference Include="SD.LLBLGen.Pro.LinqSupportClasses.NET35, Version=2.6.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SD.LLBLGen.Pro.LinqSupportClasses.NET35.dll</HintPath>
+    </Reference>
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses.NET20, Version=2.6.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="wnvhtmlconvert, Version=5.5.0.29430, Culture=neutral, PublicKeyToken=5b5f377bc08a4d32, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\Breadcrumb\Breadcrumb.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\DataAccessAdapterFactory.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\AdvertsGroupManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\AdvertsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\AdvertsPositionManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\BannerManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\CartsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\CatalogsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\CodeMarkManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\CustomersManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DealsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DiscountManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DocumentConfigManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DocumentGroupManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DocumentManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DocumentTypeManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\DownLoadHistoryManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\EmailTemplatesManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\EventsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\EventTypeManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\FeedBackManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\GuideManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\HistoryEmailManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\HistoryOrdersManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\HistoryProductManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\LockedProductManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\MarkAddHistoryManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\MarkTransferManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\NewsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\OrderCodeManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\OrderDetailManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\OrderItemsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\OrdersJoinTagsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\OrdersManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\OrderTagsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\PaymentMethodManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\PaymentsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\PositionManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\PositionTypeManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ProductInCatalogManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ProductInfoManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ProductPhotosManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ProductRegisterManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ProductsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ProductSubManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\PromotionsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ReviewsManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ShippingDetailManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\ShippingManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\StorageManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\SupplierAccountManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\SupplierInfoManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\SupplierRegisterManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\SuppliersManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\SupplierTypeManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\TransactionManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\UnitManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\VideoCatalogManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\VideosManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\ManagerBase\VideoTypeManagerBase.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\AdvertsGroupManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\AdvertsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\AdvertsPositionManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\BannerManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\CatalogsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\CodeMarkManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\CustomersManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DealsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DiscountManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DocumentConfigManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DocumentGroupManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DocumentManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DocumentTypeManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\DownLoadHistoryManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\EmailTemplatesManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\EventsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\EventTypeManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\FeedBackManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\GuideManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\HistoryEmailManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\HistoryOrdersManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\HistoryProductManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\LockedProductManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\MarkAddHistoryManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\MarkTransferManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\NewsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\OrderDetailManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\OrderItemsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\OrdersJoinTagsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\OrdersManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\OrderTagsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\PaymentMethodManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\PaymentsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\PositionManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\PositionTypeManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ProductInCatalogManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ProductInfoManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ProductPhotosManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ProductRegisterManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ProductsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ProductSubManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\PromotionsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ReviewsManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ShippingDetailManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\ShippingManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\StorageManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\SupplierAccountManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\SupplierInfoManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\SupplierRegisterManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\SuppliersManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\SupplierTypeManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\TransactionManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\UnitManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\VideoCatalogManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\VideosManager.cs" />
+    <Compile Include="Library\LayerHelper\ShopCake\Manager\VideoTypeManager.cs" />
+    <Compile Include="Library\Tools\Authentication.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Library\Tools\CacheHelper.cs" />
+    <Compile Include="Library\Tools\CSVConvertor.cs" />
+    <Compile Include="Library\Tools\ExcelConvertor.cs" />
+    <Compile Include="Library\Tools\ExportPdf.cs" />
+    <Compile Include="Library\Tools\FDateTime.cs" />
+    <Compile Include="Library\Tools\FGuid.cs" />
+    <Compile Include="Library\Tools\FileUploadControl.cs" />
+    <Compile Include="Library\Tools\FileUtil.cs" />
+    <Compile Include="Library\Tools\Filter.cs" />
+    <Compile Include="Library\Tools\FilterHtml.cs" />
+    <Compile Include="Library\Tools\FilterRegular.cs" />
+    <Compile Include="Library\Tools\FNumber.cs" />
+    <Compile Include="Library\Tools\FString.cs" />
+    <Compile Include="Library\Tools\Func.cs" />
+    <Compile Include="Library\Tools\Image2.cs" />
+    <Compile Include="Library\Tools\ImageFunction.cs" />
+    <Compile Include="Library\Tools\IO.cs" />
+    <Compile Include="Library\Tools\MD5.cs" />
+    <Compile Include="Library\Tools\SMail.cs" />
+    <Compile Include="Library\Tools\SendMail.cs" />
+    <Compile Include="Library\Tools\SqlHelper.cs" />
+    <Compile Include="Library\Tools\UnicodeConverter.cs" />
+    <Compile Include="Library\Tools\UrlBuilder.cs" />
+    <Compile Include="Library\Tools\Util.cs" />
+    <Compile Include="Library\Tools\WebUtility.cs" />
+    <Compile Include="Modules\Adverts\EnumsPosition.cs" />
+    <Compile Include="Modules\Cart\CartItem.cs" />
+    <Compile Include="Modules\Cart\CartsSession.cs" />
+    <Compile Include="Modules\Catalogs\UrlBuilder.cs" />
+    <Compile Include="Modules\Config.cs" />
+    <Compile Include="Modules\Document\DocumentConfig.cs" />
+    <Compile Include="Modules\Document\UrlBuilder.cs" />
+    <Compile Include="Modules\EnumsFile.cs" />
+    <Compile Include="Modules\EnumsTags.cs" />
+    <Compile Include="Modules\Events\Enums.cs" />
+    <Compile Include="Modules\Events\UrlBuilder.cs" />
+    <Compile Include="Modules\GetEmail.cs" />
+    <Compile Include="Modules\GoogleMaps\LatLongEntity.cs" />
+    <Compile Include="Modules\GoogleMaps\LocationEntity.cs" />
+    <Compile Include="Modules\GoogleMaps\Maps.cs" />
+    <Compile Include="Modules\GoogleMaps\UrlBuilder.cs" />
+    <Compile Include="Modules\HistoryEmail.cs" />
+    <Compile Include="Modules\NumberReservation.cs" />
+    <Compile Include="Modules\Products\EnumsProduct.cs" />
+    <Compile Include="Modules\Products\UrlBuilder.cs" />
+    <Compile Include="Modules\Resource\Enums.cs" />
+    <Compile Include="Modules\Resource\HeaderTagsEntity.cs" />
+    <Compile Include="Modules\Roles\CheckRoles.cs" />
+    <Compile Include="Modules\Roles\Enums.cs" />
+    <Compile Include="Modules\UrlBuilder.cs" />
+    <Compile Include="Modules\Videos\UrlBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reference\LayerHelper.ShopCake.DAL.dll" />
+    <Content Include="Reference\LayerHelper.ShopCake.DALDBSpecific.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\Orders\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

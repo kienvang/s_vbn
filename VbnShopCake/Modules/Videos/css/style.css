@@ -1,0 +1,68 @@
+﻿ul.li-video
+{
+	padding: 0 10px;
+	margin-bottom: 15px;
+}
+
+ul.li-video li
+{
+	list-style: none outside none;
+}
+
+ul.li-video li a
+{
+	background: url(  "/images/li-video.gif" ) no-repeat scroll 0 4px transparent;
+	color: #666666;
+	display: inline-block;
+	padding: 5px 0 0 30px;
+}
+
+.mnu-video h2
+{
+	background: url(   "/images/bgd_title_05.gif" ) no-repeat;
+	color: #FFFFFF;
+	font-size: 1em;
+	line-height: 20px;
+	margin: 0 0 10px;
+	padding: 4px 5px 7px 10px;
+	text-transform: capitalize;
+}
+
+.vdo-list
+{
+}
+
+.vdo-list h2
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.vdo-list h3
+{
+	border: #d49600 solid 1px;
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #000;
+	background: #fdb813 url(/images/bgd_title_03.gif) 0 0 repeat-x;
+	line-height: 17px;
+	padding: 3px 10px;
+	margin: 0 0 15px 0;
+}
+
+.vdo-list .item
+{
+	width: 245px;
+	float: left;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+	margin-right:5px;
+	width: 250px;
+	background: url(/img/dot.gif) repeat-x bottom;
+}
+
+.vdo-list .item div
+{
+	float: left;
+	margin-right:10px;
+}

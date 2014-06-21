@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="false"
+    CodeFile="MasterPage-1col.master.cs" Inherits="MasterPage_1col" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="header" runat="Server">
+    <link href="/css/layout-1col.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="Header" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Holder_Content" runat="Server">
+    <div id="contentwrapper">
+        <div id="contentcolumn">
+            <div class="innertube">
+                <asp:ContentPlaceHolder ID="Holder_Content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="false"
+    CodeFile="MasterPage-2col.master.cs" Inherits="MasterPage_2col" %>
+
+<%@ Register Src="Modules/Home/Controls/Catalogs.ascx" TagName="Catalogs" TagPrefix="uc1" %>
+<%@ Register Src="Modules/Products/Controls/CartBox.ascx" TagName="CartBox" TagPrefix="uc2" %>
+<%@ Register Src="ControlsHome/Login.ascx" TagName="Login" TagPrefix="uc3" %>
+<%@ Register Src="Modules/Home/Controls/SearchBox.ascx" TagName="SearchBox" TagPrefix="uc4" %>
+<%@ Register Src="Modules/News/Controls/BoxNews.ascx" TagName="BoxNews" TagPrefix="uc5" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Holder_Header" runat="Server">
+    <asp:ContentPlaceHolder ID="Header" runat="server" EnableViewState="false">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Holder_Content" runat="Server">
+    <div id="lev">
+        <uc3:Login ID="Login1" runat="server" />
+        <uc2:CartBox ID="CartBox1" runat="server" />
+        <uc4:SearchBox ID="SearchBox1" runat="server" />
+        <uc1:Catalogs ID="Catalogs1" runat="server" />
+        <uc5:BoxNews ID="BoxNews1" runat="server" />
+        <asp:ContentPlaceHolder ID="Holder_Left" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="Holder_Content" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="Holder_Footer" runat="Server" EnableViewState="false">
+    <asp:ContentPlaceHolder ID="Footer" runat="server" EnableViewState="false">
+    </asp:ContentPlaceHolder>
+</asp:Content>

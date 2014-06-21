@@ -1,0 +1,13 @@
+
+#contentcolumn{
+margin-right: 0; /*Set right margin to RightColumnWidth*/
+padding-right: 0;
+}
+
+#rightcolumn{
+float: left;
+width: 0; /*Width of right column*/
+margin-left: -0; /*Set left margin to -(RightColumnWidth) */
+
+}
+

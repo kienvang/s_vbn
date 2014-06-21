@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<license version="1.1">
+  <Customer>
+    <name>advancedintellect-3903
+Tran Minh Phuong   (Minh Phuong, Tran)
+94 Ma May, 6th Floor
+Hoan Kiem District
+Hanoi, Hanoi	 0000
+VN Viet Nam
++84 4 9263435
+num:1</name>
+  </Customer>
+  <products>
+    <Product>
+      <name>aspNetMX</name>
+      <version>2</version>
+      <licensetype>server</licensetype>
+      <expires>-1</expires>
+    </Product>
+  </products>
+  <LicenseInformation>
+    <Version>1.1</Version>
+    <H1>0</H1>
+    <H2>xxqobs2UX1of6aHkyQcEIQ==</H2>
+  </LicenseInformation>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>nypD9SsB8Xc/NFfoP5KL/wdOTYw=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>d3hu90wbAbgddVNLOQX7WlYKlcYAi+vHkgGsWLPWgBoumpyAZDD9qp6vWOLbCF3fqsbVQTHzyM0T8FfJVOnVsYtmeWE3/TwEdIxW1E1Nh2wtEV4wf9H67+lIu7e/Peu7lcyyEHkRISoaxSCAEb/4JcemmZq4ScigbJGik23nJUY=</SignatureValue>
+  </Signature>
+</license>

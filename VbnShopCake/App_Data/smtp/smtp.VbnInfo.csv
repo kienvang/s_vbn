@@ -1,0 +1,2 @@
+"SMTP.Server","SMTP.UseSSL","SMTP.Port","SMTP.Username","SMTP.Password"
+"smtp.gmail.com","TRUE","25","vbnshop@gmail.com","vbnshop!@#"

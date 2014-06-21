@@ -1,0 +1,59 @@
+﻿.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix
+{
+	display: inline-block;
+}
+.clearfix
+{
+	display: block;
+}
+.clear
+{
+	clear: both;
+}
+
+.error
+{
+	background-color: #fbe3e4;
+	border: solid 1px #fbc2c4;
+	color: Red;
+	margin: 5px 0;
+	padding:5px 20px;
+}
+
+.quiet
+{
+	color: #666666;
+}
+.hide
+{
+	display: none;
+}
+.show
+{
+	display: inline;
+}
+.small
+{
+	font-size: 0.9em;
+}
+
+.numeric
+{
+	text-align:right;
+}
+
+.note
+{
+	color: #666666;
+	font-size: 0.9em;
+	font-style:italic;
+	padding-top:3px;
+}

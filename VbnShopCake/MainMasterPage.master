@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs"
+    Inherits="MainMasterPage" %>
+
+<%@ Register Src="ControlsHome/Menu.ascx" TagName="Menu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="icon" type="image/x-icon" href="http://shop.vbn.vn/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/css/quickflip.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.jcarousel.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/skins/vbn/skin.css" />
+    <link href="/css/s3Slider.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="/js/jquery.js"></script>
+
+    <script type="text/javascript" src="/js/jQuery.equalHeights.js"></script>
+
+    <script type="text/javascript" src="/js/jquery.quickflip.js"></script>
+
+    <script type="text/javascript" src="/js/jquery.lightbox.js"></script>
+
+    <script type="text/javascript" src="/js/jquery.jcarousel.pack.js"></script>
+
+    <script src="/js/s3Slider.js" type="text/javascript"></script>
+
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="/Admin/js/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+
+    <link href="/Admin/css/ui-lightness/ui-1.7.2.custom.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery.slidemenu.js" type="text/javascript"></script>
+    <link href="/css/jquery.slidemenu2.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="header" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="container">
+            <div id="header">
+                <h1>
+                    <a href="<%= Library.Tools.UrlBuilder.RootUrl %>" title="Vietnam Bakery Network">
+                        <asp:Image ID="imgLogo" runat="server" Width="200px" Height="194px" ToolTip="Vietnam Bakery Network"
+                            AlternateText="Vietnam Bakery Network" />
+                    </a>
+                </h1>
+                <p>
+                    <asp:Image ID="imgBanner" runat="server" Width="750px" Height="177px" ToolTip="Vietnam Bakery Network"
+                        AlternateText="Vietnam Bakery Network" />
+                </p>
+            </div>
+            <div id="nav">
+                <uc1:Menu ID="Menu1" runat="server" EnableViewState="false" />
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder ID="Holder_Header" runat="server">
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="Holder_Content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Holder_Footer" runat="server" EnableViewState="false">
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            <%--<ul class="linkType">
+                <li><a href="#" title="Hỏi đáp trực tuyến">
+                    <img src="/images/ico_01.gif" alt="Hỏi đáp trực tuyến" width="39" height="39" />Hỏi
+                    đáp trực tuyến</a></li>
+                <li><a href="#" title="Sản phẩm khuyến mãi">
+                    <img src="/images/ico_02.gif" alt="Sản phẩm khuyến mãi" width="47" height="39" />Sản
+                    phẩm khuyến mãi</a></li>
+                <li><a href="#" title="Hình thức thanh toán">
+                    <img src="/images/ico_03.gif" alt="Hình thức thanh toán" width="46" height="39" />Hình
+                    thức thanh toán</a></li>
+            </ul>--%>
+            <p>
+                &copy;2009 Copyright by Vietnam Bakery Network<br />
+                Địa chỉ: C7/1A2 Phạm Hùng, Bình Hưng, Bình Chánh, TP. Hồ Chí Minh<br />
+                Số ĐT: 083 924 1 924 - WebSite: <a href="http://shop.vbn.vn" title="">shop.vbn.vn</a>
+                - Email: <a href="#" title="">mysuongbakery@yahoo.com</a>
+            </p>
+            <div>
+                <ul>
+                    <li><a href="http://vbn.com.vn" title="Trang chủ">Trang chủ</a></li>
+                    <li><a href="<%= Library.Tools.UrlBuilder.RootUrl %>" title="Sản phẩm">Sản phẩm</a></li>
+                    <li class="last"><a href="/lien-he.html" title="Liên hệ">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

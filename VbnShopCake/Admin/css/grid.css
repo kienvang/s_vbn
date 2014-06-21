@@ -1,0 +1,159 @@
+﻿.header
+{
+	height: 50px;
+	font-size: 12px;
+}
+/* Begin Grid css */
+table.grid
+{
+	border: 1px solid #dedede;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.grid th,tr.title
+{
+	text-align: center;
+	font-weight: bold;
+	background-color: #007DC4;
+	color: White;
+	height: 30px;
+	font-family: Tahoma;
+	font-size:12px;
+}
+
+table.grid tr.row
+{
+	color: #535353;
+	height: 26px;
+	vertical-align: middle;
+}
+
+table.grid a
+{
+	color: #007DC4;
+	text-decoration:none;
+}
+table.grid a:hover
+{
+	color: #007DC4;
+	text-decoration:underline;
+}
+
+table.grid td,th
+{
+	padding: 0 5px;
+	border: 1px solid #DEDEDE;
+}
+
+table.grid input[type=text].update
+{
+	height: 14px;
+	width: 120px;
+}
+
+table.grid input[type=text].numeric
+{
+	height: 14px;
+	width: 70px;
+	text-align:right;
+}
+
+table.grid input[type=button].update, input[type=submit].update
+{
+	height: 22px;
+	font-size: 11px;
+}
+/* End Grid css*/
+
+/* Begin Grid Sub Css*/
+table.grid-sub
+{
+	border: 1px solid white;
+	border-collapse: collapse;
+	font-family: Tahoma;
+}
+
+table.grid-sub td,th
+{
+	padding:5px 5px;
+	border: 1px solid white;
+}
+
+table.grid-sub tr.title
+{
+	text-align: center;
+	font-weight: bold;
+	background-color: #CAE9FB;
+	color: #0066FF;
+	height: 30px;
+}
+
+table.grid-sub tr.row
+{
+	height: 26px;
+	vertical-align: middle;
+	background-color: #B1F8B4;
+}
+
+table.grid-sub tr.total
+{
+	height: 28px;
+	vertical-align: middle;
+	font-weight: bold;
+	background-color: #FED067;
+}
+/* End Grid Sub Css*/
+
+.alpha-1
+{
+	background-color: #F07A0F;
+	height: 27px;
+}
+.alpha-2
+{
+	background-color: #FFF;
+	height: 27px;
+}
+
+
+
+table.detail
+{
+	font-family: Arial;
+	font-size: 12px;
+	margin:5px 5px;
+}
+
+table.detail tr
+{
+	height: 25px;
+}
+
+table.detail .text-info
+{
+	color: #CC0000;
+	font-family: Tahoma;
+}
+
+table.detail a
+{
+	color: #CC0000;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+
+table.detail .click
+{
+	color: #CC0000;
+	font-family: Tahoma;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+table.detail .click-no-line
+{
+	color: #CC0000;
+	font-family: Tahoma;
+	cursor:pointer;
+}

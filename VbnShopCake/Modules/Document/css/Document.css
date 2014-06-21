@@ -1,0 +1,32 @@
+﻿body
+{
+}
+.display
+{
+	width: 230px;
+	height: 225px;
+	margin: 10px;
+	float: left;
+}
+.image
+{
+	width: 120px;
+	height: 120px;
+	margin-bottom:5px;
+	float:left;
+	margin-right:5px;
+}
+
+.title
+{
+	clear:both;
+	font-family: Arial,Helvetica,sans-serif;
+	outline: medium none;
+	color:#9E0326;
+	font-weight:bolder;
+	font-size:16px;
+}
+.detail
+{
+	color:#9E0326;
+}

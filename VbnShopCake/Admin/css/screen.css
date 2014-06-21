@@ -1,0 +1,70 @@
+/******** Default Behaviour Tags ********/
+/****************************************/
+/* RESET STYLE */
+
+body{font-size:10px; font-family:Arial; background:#efefef url(/images/bgd_body.gif) 0 0 repeat-x;}
+
+select, input, textarea	{font-family: Arial, Helvetica, sans-serif; color:#535353; border:#afafaf solid 1px; font-size:1.1em}
+input, textarea{padding:1px 1px 1px 2px;}
+h1{}
+h2, h3,h4, h5{font-size:1.5em; margin:5px 0}
+img, fieldset{border:0}
+/***********/
+p{line-height:16px;}
+/********** Common Classes ********/
+.clear{height:0; clear:both; padding:0; margin:0; line-height:0;}
+.hidden {display:none;}
+
+/********** Common Structure (for all templates) ********/
+#wrapper{width:988px; font-size:1.2em; margin:0 auto; background:url(/images/bgd_wrapper.gif) 0 0 repeat-y;}
+	#container{width:980px; overflow:hidden; background:url(/images/bgd_container.gif) 0 0 no-repeat; padding:0 4px 10px 4px;}
+	
+	/********** header ********/
+	/********************************************************/
+	#header1{width:100%; overflow:hidden; margin:0 0 1px 0}
+		#header1 h1{display:block; float:left; margin:0 15px 0 0}
+		#header1 p{padding:27px 0 0 0; float:left}
+	
+	/********** main ********/
+	#main{width:100%; overflow:hidden}
+	
+	/********** content ********/
+	/********************************************************/
+	#content{width:750px; float:left}
+		#content h2{border:#d49600 solid 1px; font-size:1.1em;  text-transform:uppercase; color:#000; background:#fdb813 url(/images/bgd_title_03.gif) 0 0 repeat-x; line-height:17px; padding:3px 10px; margin:0 0 15px 0}
+	
+	/********** footer ********/
+	#footer1{width:100%; background:#efefef url(/images/bgd_footer.gif) 0 0 no-repeat; overflow:hidden}
+		#footer1 p{padding:13px 0 0 15px}
+		
+		#footer1 div{clear:both; width:100%; overflow:hidden; text-align:center; background:url(/images/bgd_footer_01.gif) 0 0 no-repeat; padding:17px 0 10px 0;}
+		#footer1 div ul{text-align:center;}
+		#footer1 div li{display:inline; padding:0 18px 0 16px; background:url(/images/bgd_line_02.gif) 100% 50% no-repeat;}
+		#footer1 div li a{color:#fff;}
+		#footer1 .last{background:none}
+		
+.pagging{border-top:1px dotted #000; width:100%; margin-top:26px}
+.pagging ul{float:left;}
+.pagging ul li{list-style:none; display:inline;}
+.pagging ul li a{color:#a6092b; text-decoration:none; padding:0px 10px; border-left:1px solid #acacac;}
+.pagging ul li a:hover{color:#989898; text-decoration:underline;}
+.pagging ul li a.current{font-weight:bold; color:#a6092b; text-decoration:none; padding:0px 10px; border-left:1px solid #acacac;}
+.pagging ul li a.current:hover{font-weight:bold; color:#989898; text-decoration:underline;}
+.pagging ul li.first a{border:none;}
+
+.box-contain
+{
+	font-family:Arial;
+	margin-top:15px
+}
+.box-contain h2
+{
+	border:#d49600 solid 1px; font-size:1.1em; color:#000; background:#fdb813 url(/images/bgd_title_03.gif) 0 0 repeat-x; line-height:17px; padding:3px 10px; margin:0 0 -1px 0;
+}
+.box-contain .body
+{
+	border-bottom:#d49600 solid 1px;
+	border-left:#d49600 solid 1px;
+	border-right:#d49600 solid 1px;
+	
+}

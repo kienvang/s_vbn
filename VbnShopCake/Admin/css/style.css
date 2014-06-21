@@ -1,0 +1,291 @@
+﻿*
+{
+	outline: none;
+}
+ul.bullet-admin li, a
+{
+	list-style-image: url(  '/img/bullet/mnu.gif' );
+	color: #007DC4;
+	font-family: Arial;
+	text-decoration: none;
+}
+.border
+{
+	border: solid 1px #dedede;
+	margin: 10px 0;
+}
+.background-01
+{
+	background-color: #FB8F2F;
+}
+
+.background-02
+{
+	background-color: #FADD69;
+}
+
+.background-03
+{
+	background-color: #FBED9B;
+}
+
+.forecolor-01
+{
+	color: #CC0000;
+}
+
+.error
+{
+	background-color: #fbe3e4;
+	border: solid 1px #fbc2c4;
+	color: Red;
+	margin: 5px 0;
+}
+
+.quiet
+{
+	color: #666666;
+}
+.hide
+{
+	display: none;
+}
+.show
+{
+	display: inline;
+}
+.small
+{
+	font-size: 0.9em;
+}
+
+
+.box56
+{
+	border: solid 1px #ccc;
+	margin: 0 0 25px 0;
+}
+
+.box56 h2
+{
+	background: #8ab9ff url(/img/box/texture-red-2.png) 0 50% repeat-x;
+	height: 25px;
+	padding: 8px 0 0 10px;
+}
+
+
+.box56 h2.blue-bg
+{
+	background: #8ab9ff url(/img/box/texture-blue-2.png) 0 50% repeat-x;
+}
+
+.box56 div.gray-bg
+{
+	background: #fff url(/img/box/texture-gray-2.png) 0 50% repeat-x;
+	padding: 2px 0 0 30px;
+}
+.box56 .body
+{
+	padding: 15px;
+}
+
+h2 a:hover
+{
+	text-decoration: none;
+}
+
+
+
+.box57-border-top
+{
+	border-top: solid 1px #ccc;
+	margin: 0 0 25px 0;
+	padding: 15px 0 0 15px;
+}
+.box57-border-top .item-large
+{
+	float: left;
+	width: 374px;
+}
+.box57-border-top .item-small
+{
+	float: left;
+	width: 250px;
+}
+.box57-border-top .seperator
+{
+	float: left;
+	width: 20px;
+}
+.box57-border-top h2.t18b
+{
+	margin: 0 0 15px 0;
+}
+
+
+.box57-border-top .item-quarter
+{
+	width: 160px;
+	float: left;
+	text-align: center;
+	border-left: solid 1px #ccc;
+}
+
+.box57-border-top .sub-item-quarter
+{
+	width: 122px;
+	margin: 0 auto 0 auto;
+}
+
+
+.remove-left-border
+{
+	border-left: none;
+}
+
+
+.box57-border-top .item-50-50
+{
+	float: left;
+	width: 300px;
+}
+
+
+.box57-border-top .item-30-30-30
+{
+	float: left;
+	width: 202px;
+}
+.box57-border-top .item-30-30-30 h2, .box57-border-top .item-25-25-25-25 h2
+{
+	margin-bottom: 10px;
+}
+.box57-border-top .item-25-25-25-25
+{
+	float: left;
+	width: 122px;
+}
+
+
+/* Start box58 */
+
+.box58
+{
+	padding-top: 1px;
+}
+.box58-container
+{
+	display: block;
+	border: 1px solid #ccc;
+	margin: 20px 0 25px 0;
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+
+.box58 h2
+{
+	float: left;
+	display: block;
+	background: url(/img/box/menu53_hover_right.gif) repeat-x;
+	margin: -20px 0 0 10px;
+	padding: 5px 0 10px 0;
+}
+
+.box58 .body
+{
+	clear: both;
+	margin: 0 10px 0 10px;
+}
+
+.box58 .row
+{
+	margin-bottom: 15px;
+}
+.box58 .row2
+{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.box58 .row2-seperator
+{
+	border-top: dashed 1px #ccc;
+}
+.box58 .item-left-image
+{
+	float: left;
+	width: 70px;
+	margin-right: 10px;
+}
+.box58 .item-right-text
+{
+	float: left;
+	width: 196px;
+}
+
+.box58 .item-left-text
+{
+	float: left;
+	width: 176px;
+	margin-right: 10px;
+}
+.box58 .item-right-image
+{
+	float: left;
+	width: 90px;
+	height: 60px;
+}
+
+.box58-border-top-only
+{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+/* End box58 */
+
+div.phan-trang
+{
+	margin: 0 0 25px 0;
+	text-align: center;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	padding: 10px 0 10px 0;
+	color: #ccc;
+}
+div.phan-trang a
+{
+	margin: 0 5px 0 5px;
+}
+div.phan-trang a.current
+{
+	color: #E33100;
+	font-weight: bold;
+}
+/* End phan-trang */
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix
+{
+	display: inline-block;
+}
+* html .clearfix
+{
+	height: 1%;
+}
+.clearfix
+{
+	display: block;
+}
+
+.click
+{
+	cursor:pointer;
+	display:inline;
+}

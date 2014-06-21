@@ -1,0 +1,17 @@
+#contentcolumn{
+margin: 0 180px 0 180px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+padding-left: 15px;
+padding-right: 15px;
+}
+
+#leftcolumn{
+float: left;
+width: 180px; /*Width of left column in pixel*/
+margin-left: -974px; /*Set margin to that of -(MainContainerWidth)*/
+}
+
+#rightcolumn{
+float: left;
+width: 180px; /*Width of right column*/
+margin-left: -180px; /*Set left margin to -(RightColumnWidth)*/
+}

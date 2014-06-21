@@ -1,0 +1,31 @@
+E:\Quoc Tung\Profiles\Small OT\VBN\PharseBasic\VbnShopCake\VbnLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Quoc Tung\Profiles\Small OT\VBN\PharseBasic\VbnShopCake\VbnLibrary\bin\Debug\VbnLibrary.dll
+E:\Quoc Tung\Profiles\Small OT\VBN\PharseBasic\VbnShopCake\VbnLibrary\bin\Debug\VbnLibrary.pdb
+E:\Quoc Tung\Profiles\Small OT\VBN\PharseBasic\VbnShopCake\VbnLibrary\obj\Debug\VbnLibrary.dll
+E:\Quoc Tung\Profiles\Small OT\VBN\PharseBasic\VbnShopCake\VbnLibrary\obj\Debug\VbnLibrary.pdb
+G:\$Project$\VbnShopCake\VbnShopCake\VbnLibrary\bin\Debug\VbnLibrary.dll
+G:\$Project$\VbnShopCake\VbnShopCake\VbnLibrary\bin\Debug\VbnLibrary.pdb
+G:\$Project$\VbnShopCake\VbnShopCake\VbnLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\$Project$\VbnShopCake\VbnShopCake\VbnLibrary\obj\Debug\VbnLibrary.dll
+G:\$Project$\VbnShopCake\VbnShopCake\VbnLibrary\obj\Debug\VbnLibrary.pdb
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\bin\Debug\VbnLibrary.dll
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\bin\Debug\VbnLibrary.pdb
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\obj\Debug\VbnLibrary.dll
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\obj\Debug\VbnLibrary.pdb
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\bin\Debug\LayerHelper.ShopCake.DAL.dll
+G:\$Project$\SVN_ShopCake\Source\VbnLibrary\bin\Debug\LayerHelper.ShopCake.DALDBSpecific.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\obj\Debug\VbnLibrary.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\obj\Debug\VbnLibrary.pdb
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\bin\Debug\VbnLibrary.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\bin\Debug\VbnLibrary.pdb
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\bin\Debug\LayerHelper.ShopCake.DAL.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\ shopcake\Source\VbnLibrary\bin\Debug\LayerHelper.ShopCake.DALDBSpecific.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\bin\Debug\VbnLibrary.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\bin\Debug\VbnLibrary.pdb
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\bin\Debug\LayerHelper.ShopCake.DAL.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\bin\Debug\LayerHelper.ShopCake.DALDBSpecific.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\obj\Debug\VbnLibrary.dll
+E:\QuocTung\Profiles\SmallOT\VBN\PharseSecond\Source\VbnLibrary\obj\Debug\VbnLibrary.pdb
